@@ -36,14 +36,16 @@ export default function PrintShop() {
                 <tbody>
                     <tr>
                         <td>
-                            {products.map((p) => (
+                            <div className="card-container">
+                                {products.map((p) => (
                                 <Card
                                     key={p.id}
                                     image={p.image}
                                     title={p.title}
                                     description={p.description}
                                 />
-                            ))}
+                                ))}
+                            </div> 
                         </td>
                     </tr>
                 </tbody>
