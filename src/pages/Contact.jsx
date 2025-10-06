@@ -1,23 +1,25 @@
 import React from 'react';
 import Card from '../Components/Card';
 import Logo from '../assets/Logo.png';
-
+import Instagram from '../assets/download.jpg'
+import Phone from '../assets/images.png'
+import Gmail from '../assets/download.png' 
 
 const contacts = [
 {
     id: 1,
-    image: Logo,
+    image: Phone,
     title: "Phone Number",
     description: "(402) 699-8475",
 },
 {
     id: 2,
-    image: Logo,
+    image: Gmail,
     title: "Email",
     description: "sohpiarojas@gmail.com",
 },
 {   id: 3,
-    image: Logo,
+    image: Instagram,
     title: "Instagram",
     description: "@srojas.conservation_mgmt",
 },
