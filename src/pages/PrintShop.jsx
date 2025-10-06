@@ -1,24 +1,28 @@
 import React from 'react';
 import Logo from '../assets/Logo.png';
 import Card from '../Components/Card';
+import Sunset from '../assets/IMG_0552.jpg';
+import ElephantTree from '../assets/IMG_1139.jpg';
+import Ravine from '../assets/IMG_1543.jpg';
 
 const products = [
     {
         id: 1,
-        image: Logo,
-        title: 'Canvas Prints',
+        image: Sunset,
+        title: 'Sunset',
         description: 'Prices Coming Soon',
+        className: 'Sunset',
     },
     {
         id: 2,
-        image: Logo,
-        title: 'Canvas Prints',
+        image: ElephantTree,
+        title: 'Elephant Grabbing Tree',
         description: 'Prices Coming Soon',
     },
     {
         id: 3,
-        image: Logo,
-        title: 'Canvas Prints',
+        image: Ravine,
+        title: 'Ravine',
         description: 'Prices Coming Soon',
     },
     {
@@ -140,12 +144,14 @@ export default function PrintShop() {
                         <td>
                             <div className="card-container-printshop">
                                 {products.map((p) => (
-                                <Card
-                                    key={p.id}
-                                    image={p.image}
-                                    title={p.title}
-                                    description={p.description}
-                                />
+                                <div key={p.id}>
+                                    <Card
+                                       
+                                        image={p.image}
+                                        title={p.title}
+                                        description={p.description}
+                                    />
+                                </div>
                                 ))}
                             </div> 
                         </td>

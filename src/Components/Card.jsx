@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Card({ image, title, description, className = '' }) {
+export default function Card({ image, title, description, className = 'card' }) {
     return (
         <div className={`card ${className}`.trim()}>
-            {image && <img src={image} alt={title || 'card image'} />}
+            {image && <img src={image} alt={title || 'card image' }className="card-image" />}
             {title && <h2>{title}</h2>}
             {description && <p>{description}</p>}
         </div>
