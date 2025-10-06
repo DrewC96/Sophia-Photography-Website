@@ -132,13 +132,13 @@ export default function PrintShop() {
             <table>
                 <thead>
                     <tr>
-                        <th>Product</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <div className="card-container">
+                            <div className="card-container-printshop">
                                 {products.map((p) => (
                                 <Card
                                     key={p.id}
