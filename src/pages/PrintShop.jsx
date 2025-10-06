@@ -157,10 +157,10 @@ export default function PrintShop() {
     return (
         <div className="print-shop">
             <h1>Print Shop</h1>
-            <table>
+            <table className="South-Africa-table">
                 <thead>
                     <tr>
-                        <th></th>
+                        <th>South Africa</th>
                     </tr>
                 </thead>
                 <tbody>
