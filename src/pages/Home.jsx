@@ -1,10 +1,12 @@
 import React from 'react';
+import Me from '../assets/sunset of me .JPG';
+
 
 export default function Home() {
     return (
         <div>
-            <h1>Welcome to Sophia Photo</h1>
-            <p>Your one-stop destination for stunning photography.</p>
+            <h1>Welcome to Sophia's Print Shop!</h1>
+            <img src={Me} alt="Sophia Rojas" className="home-image" />
         </div>
     );
 }
