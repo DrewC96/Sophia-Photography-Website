@@ -2,8 +2,26 @@ import React from 'react';
 import Logo from '../assets/Logo.png';
 import Card from '../Components/Card';
 import Sunset from '../assets/IMG_0552.jpg';
-import ElephantTree from '../assets/IMG_1139.jpg';
 import Ravine from '../assets/IMG_1543.jpg';
+import Rocks from '../assets/IMG_1685.jpg';
+import ElephantSelfie1 from '../assets/IMG_2514.jpg';
+import WhiteMonkey1 from '../assets/IMG_4532.jpg';
+import WhiteMonkey2 from '../assets/IMG_6531.jpg';
+import ElephantSelfie2 from '../assets/IMG_8616.jpg';
+import Rooster from '../assets/IMG_8661.jpg';
+import YellowBird from '../assets/IMG_8718.jpg';
+import SpookyBird from '../assets/IMG_9229.jpg';
+import CloudSunset from '../assets/IMG_9307.jpg';
+import Falcon from '../assets/IMG_9535.jpg';
+import Pigeon from '../assets/IMG_9597.jpg';
+import Zebra from '../assets/IMG_0525 - Copy.jpg';
+import Buffalo from '../assets/IMG_4017.jpg';
+import Skull from '../assets/IMG_4078 - Copy.jpg';
+import Giraffe1 from '../assets/IMG_7819.jpg';
+import Giraffe2 from '../assets/IMG_7826.jpg';
+import Shrew from '../assets/IMG_7969.jpg';
+import Mantis from '../assets/IMG_8012.jpg';
+import ElephantTree from '../assets/IMG_1139.jpg';
 
 const products = [
     {
@@ -27,103 +45,109 @@ const products = [
     },
     {
         id: 4,
-        image: Logo,
+        image: ElephantSelfie1,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 5,
-        image: Logo,
+        image: WhiteMonkey1,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 6,
-        image: Logo,
+        image: WhiteMonkey2,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 7,
-        image: Logo,
+        image: ElephantSelfie2,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 8,
-        image: Logo,
+        image: Rooster,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 9,
-        image: Logo,
+        image: Rocks,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 10,
-        image: Logo,
+        image: YellowBird,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 11,
-        image: Logo,
+        image: SpookyBird,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 12,
-        image: Logo,
+        image: CloudSunset,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 13,
-        image: Logo,
+        image: Falcon,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 14,
-        image: Logo,
+        image: Pigeon,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 15,
-        image: Logo,
+        image: Zebra,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 16,
-        image: Logo,
+        image: Buffalo,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 17,
-        image: Logo,
+        image: Skull,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 18,
-        image: Logo,
+        image: Giraffe1,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 19,
-        image: Logo,
+        image: Giraffe2,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
     {
         id: 20,
-        image: Logo,
+        image: Shrew,
+        title: 'Canvas Prints',
+        description: 'Prices Coming Soon',
+    },
+    {
+        id: 21,
+        image: Mantis,
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
