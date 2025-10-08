@@ -17,11 +17,14 @@ function NavBar() {
               <NavDropdown.Item as={Link} to="/printshop/south-africa">
                 South Africa
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/printshop/bugs-and-spiders">
-                Bugs and Spiders
+              <NavDropdown.Item as={Link} to="/printshop/nebraska">
+                Nebraska
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/printshop/nebraska-wildlife">
-                Nebraska Wildlife
+              <NavDropdown.Item as={Link} to="/printshop/north-america">
+                North America
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/printshop/madagascar">
+                Madagascar
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>

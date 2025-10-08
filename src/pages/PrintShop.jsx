@@ -153,7 +153,7 @@ const southAfrica = [
     },
 ];
 
-const bugsAndSpiders = [
+const nebraska = [
     {
         id: 1,
         image: null,
@@ -168,7 +168,16 @@ const bugsAndSpiders = [
     },
 ];
 
-const nebraskaWildlife = [
+const northAmerica = [
+    {
+        id: 1,
+        image: null,
+        title: 'nebraska wildlife',
+        description: 'nebraska wildlife',
+    },
+];
+
+const madagascar = [
     {
         id: 1,
         image: null,
@@ -179,8 +188,9 @@ const nebraskaWildlife = [
 
 const categories = {
     'south-africa':  southAfrica,
-    'bugs-and-spiders': bugsAndSpiders,
-    'nebraska-wildlife': nebraskaWildlife,
+    'nebraska': nebraska,
+    'north-america': northAmerica,
+    'madagascar': madagascar,
 };
 
 
@@ -190,8 +200,9 @@ export default function PrintShop() {
    
    const titleMap = {
     'south-africa': 'South Africa',
-    'bugs-and-spiders': 'Bugs & Spiders',
-    'nebraska-wildlife': 'Nebraska Wildlife',
+    'nebraska': 'Nebraska',
+    'north-america': 'North America',
+    'madagascar': 'Madagascar',
    };
 
     return (
