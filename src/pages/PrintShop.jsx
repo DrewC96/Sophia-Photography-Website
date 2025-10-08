@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import Card from '../Components/Card';
 import Sunset from '../assets/IMG_0552.jpg';
 import Ravine from '../assets/IMG_1543.jpg';
@@ -22,7 +23,7 @@ import Shrew from '../assets/IMG_7969.jpg';
 import Mantis from '../assets/IMG_8012.jpg';
 import ElephantTree from '../assets/IMG_1139.jpg';
 
-const products = [
+const southAfrica = [
     {
         id: 1,
         image: Sunset,
@@ -152,34 +153,62 @@ const products = [
     },
 ];
 
+const bugsAndSpiders = [
+    {
+        id: 1,
+        image: null,
+        title: 'bugs',
+        description: 'bugs',
+    },
+    {
+        id: 2,
+        image: null,
+        title: 'spiders',
+        description: 'spiders',
+    },
+];
+
+const nebraskaWildlife = [
+    {
+        id: 1,
+        image: null,
+        title: 'nebraska wildlife',
+        description: 'nebraska wildlife',
+    },
+];
+
+const categories = {
+    'south-africa':  southAfrica,
+    'bugs-and-spiders': bugsAndSpiders,
+    'nebraska-wildlife': nebraskaWildlife,
+};
+
+
 export default function PrintShop() {
+   const { category } = useParams();
+   const products = categories[category] || southAfrica;
+   
+   const titleMap = {
+    'south-africa': 'South Africa',
+    'bugs-and-spiders': 'Bugs & Spiders',
+    'nebraska-wildlife': 'Nebraska Wildlife',
+   };
+
     return (
         <div className="print-shop">
             <h1>Print Shop</h1>
-            <table className="South-Africa-table">
-                <thead>
-                    <tr>
-                        <th>South Africa</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div className="card-container-printshop">
-                                {products.map((p) => (
-                                <div key={p.id}>
-                                    <Card
-                                        image={p.image}
-                                        title={p.title}
-                                        description={p.description}
-                                    />
-                                </div>
-                                ))}
-                            </div> 
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>{titleMap[category] || 'South Africa'}</h2>
+
+            <div className='print-shop-card'>
+                {products.map((p) => (
+                    <Card
+                        key={p.id}
+                        image={p.image}
+                        title={p.title}
+                        description={p.description}
+                    />
+                ))}
+            </div>
         </div>
     );
 }
