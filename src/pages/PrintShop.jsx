@@ -178,12 +178,7 @@ const northAmerica = [
 ];
 
 const madagascar = [
-    {
-        id: 1,
-        image: null,
-        title: 'nebraska wildlife',
-        description: 'nebraska wildlife',
-    },
+
 ];
 
 const categories = {

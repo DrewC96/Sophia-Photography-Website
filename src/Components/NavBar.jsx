@@ -24,7 +24,7 @@ function NavBar() {
                 North America
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/printshop/madagascar">
-                Madagascar
+                Madagascar<span className="coming-soon-tag">Coming Soon</span>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
