@@ -7,6 +7,7 @@ export default function Home() {
         <div className="image-header-container">
             <h1 className="home-header">Welcome to Sophia's Print Shop!</h1>
             <img src={Me} alt="Sophia Rojas" className="home-image" />
+            <p className="photo-credit">Photo Credit: @noah_koal</p>
         </div>
     );
 }

@@ -22,6 +22,21 @@ import Giraffe2 from '../assets/IMG_7826.jpg';
 import Shrew from '../assets/IMG_7969.jpg';
 import Mantis from '../assets/IMG_8012.jpg';
 import ElephantTree from '../assets/IMG_1139.jpg';
+import ElephantSun from '../assets/(2) (1).jpg';
+import BlueBee from '../assets/20250918_Hardin Hall Praire_Rojas.jpg';
+import PurpleButterfly from '../assets/DSC00067.jpg';
+import RedFlower from '../assets/DSC00093.jpg';
+import YellowButterfly from '../assets/DSC00161.jpg';
+import YellowSpider from '../assets/DSC00278.jpg';
+import BrownMantis from '../assets/DSC00284.jpg';
+import SpiderWeb1 from '../assets/DSC00325.jpg';
+import YellowFlower from '../assets/DSC00396.jpg';
+import SpiderWeb2 from '../assets/DSC00457.jpg';
+import Peacock from '../assets/IMG_1740.jpg';
+import WhiteFlower from '../assets/IMG_2379.jpg';
+import PurpleBush from '../assets/Rojas_Critique004.jpg';
+import RedWeb from '../assets/sophia r .jpg';
+import BeeMate from '../assets/ATT14819.jpg';
 
 const southAfrica = [
     {
@@ -29,7 +44,6 @@ const southAfrica = [
         image: Sunset,
         title: 'Sunset',
         description: 'Prices Coming Soon',
-        className: 'Sunset',
     },
     {
         id: 2,
@@ -151,30 +165,103 @@ const southAfrica = [
         title: 'Canvas Prints',
         description: 'Prices Coming Soon',
     },
+    {
+        id: 22,
+        image: ElephantSun,
+        title: 'Sunset',
+        description: 'Prices Coming Soon',
+    },
 ];
 
 const nebraska = [
     {
         id: 1,
-        image: null,
+        image: BlueBee,
         title: 'bugs',
         description: 'bugs',
     },
     {
         id: 2,
-        image: null,
+        image: PurpleButterfly,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 3,
+        image: RedFlower,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 4,
+        image: YellowButterfly,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 5,
+        image: YellowSpider,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 6,
+        image: BrownMantis,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 7,
+        image: SpiderWeb1,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 8,
+        image: YellowFlower,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 9,
+        image: SpiderWeb2,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 10,
+        image: Peacock,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 11,
+        image: WhiteFlower,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 12,
+        image: PurpleBush,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 13,
+        image: RedWeb,
+        title: 'spiders',
+        description: 'spiders',
+    },
+    {
+        id: 14,
+        image: BeeMate,
         title: 'spiders',
         description: 'spiders',
     },
 ];
 
 const northAmerica = [
-    {
-        id: 1,
-        image: null,
-        title: 'nebraska wildlife',
-        description: 'nebraska wildlife',
-    },
+    
 ];
 
 const madagascar = [
@@ -203,7 +290,7 @@ export default function PrintShop() {
     return (
         <div className="print-shop">
             <h1>Print Shop</h1>
-            <h2>{titleMap[category] || 'South Africa'}</h2>
+            <h2 className="print-shop-titles">{titleMap[category] || 'South Africa'}</h2>
 
             <div className='print-shop-container'>
                 {products.map((p) => (
