@@ -19,7 +19,7 @@
   height: auto;
 }
 
-.print-shop-card {
+.print-shop-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;

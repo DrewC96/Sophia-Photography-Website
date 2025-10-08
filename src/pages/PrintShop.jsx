@@ -210,7 +210,7 @@ export default function PrintShop() {
             <h1>Print Shop</h1>
             <h2>{titleMap[category] || 'South Africa'}</h2>
 
-            <div className='print-shop-card'>
+            <div className='print-shop-container'>
                 {products.map((p) => (
                     <Card
                         key={p.id}
