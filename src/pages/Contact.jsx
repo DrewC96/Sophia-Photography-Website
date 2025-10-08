@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../Components/Card';
-import Logo from '../assets/Logo.png';
 import Instagram from '../assets/download.jpg'
 import Phone from '../assets/images.png'
 import Gmail from '../assets/download.png' 
@@ -16,7 +15,7 @@ const contacts = [
     id: 2,
     image: Gmail,
     title: "Email",
-    description: "sohpiarojas@gmail.com",
+    description: "srojas.conservationmgmt@gmail.com",
 },
 {   id: 3,
     image: Instagram,

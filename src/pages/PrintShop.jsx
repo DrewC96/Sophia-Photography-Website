@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../assets/Logo.png';
 import Card from '../Components/Card';
 import Sunset from '../assets/IMG_0552.jpg';
 import Ravine from '../assets/IMG_1543.jpg';
@@ -170,7 +169,6 @@ export default function PrintShop() {
                                 {products.map((p) => (
                                 <div key={p.id}>
                                     <Card
-                                       
                                         image={p.image}
                                         title={p.title}
                                         description={p.description}
